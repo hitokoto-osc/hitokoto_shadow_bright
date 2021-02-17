@@ -1,0 +1,50 @@
+{
+  "name": "hitokoto_shadow_bright",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vuedx-typecheck . && vite build",
+    "serve": "vite preview"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "element-plus": "^1.0.2-beta.32",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vuedx/typecheck": "^0.6.0",
+    "@vuedx/typescript-plugin-vue": "^0.6.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-vue": "^7.6.0",
+    "husky": "4",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.7",
+    "stylelint": "^13.10.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-order": "^4.1.0",
+    "typescript": "^4.1.3",
+    "vite": "^2.0.0"
+  }
+}
