@@ -1,6 +1,7 @@
 {
   "name": "hitokoto_shadow_bright",
   "version": "0.1.0",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vuedx-typecheck . && vite build",
